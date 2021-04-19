@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootst99999rap.min.css'>
+    <script src='main.js'></script>
+
+    <style>
+        ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap-reverse;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 200px;
+            background-color: rgb(236, 230, 236);
+            border-radius: 15px;
+        }
+        
+        ul:hover {
+            background: yellow;
+        }
+        
+        li {
+            margin: 0.5em;
+            padding: 0.5em;
+            border: 3px solid red;
+        }
+        
+        .flex2 {
+            order: 1px;
+            border: 3px dotted rgb(255, 136, 0);
+            text-transform: lowercase;
+            /*flex: 1 1 5em;
+            */
+        }
+        
+        .flex {
+            order: 1px;
+            border: 3px dotted rgb(47, 50, 255);
+            flex: 2 2 5em;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li class="flex2">ONE</li>
+        <li class="flex">TWO</li>
+        <li class="flex">FOUR</li>
+        <li class="flex2">FIVE</li>
+        <li class="flex">SIX</li>
+        <li class="flex2">SEVEN</li>
+    </ul>
+</body>
+
+</html>

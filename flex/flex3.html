@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <style>
+        body {
+            background-image: url("18.jpg");
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        
+        ul {
+            list-style: none;
+            padding-top: 10px;
+            margin: 10px;
+            border: 5px solid red;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            background: blue;
+            align: center;
+            color: white;
+        }
+        
+        ul:hover {
+            background: red;
+            border: 5pt solid black;
+        }
+        
+        li {
+            list-style: none;
+            padding: 0.7em;
+            margin: 0.7em;
+            border: 2px solid rgb(15, 8, 1);
+            display: flex;
+        }
+        
+        .flex1 {
+            order: 4;
+            border: 4px solid rgb(17, 230, 176)
+        }
+        
+        .flex2 {
+            order: 2;
+            border: 4px solid rgb(250, 246, 247);
+        }
+        
+        .flex3 {
+            order: 3;
+            border: 4px solid rgb(3, 22, 3);
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <ul>
+        <li class="flex1"> ONE</li>
+        <li class="flex2">TWO</li>
+        <li class="flex3">THREE</li>
+
+    </ul>
+
+</body>
+
+</html>
